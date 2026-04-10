@@ -1,6 +1,10 @@
 package week2.package1;
 
+import java.util.Scanner;
+
 public class Lion {
+    Scanner scanner = new Scanner(System.in);
+
     // 인스턴스 변수 선언
     public String name;
     String major;
@@ -16,7 +20,21 @@ public class Lion {
         this.cohort = cohort;
     }
 
-    // Getter // Step1에서 사용 X
+    // 입력 메서드 추가
+    void enterName(){
+        name = scanner.nextLine();
+    }
+
+    void enterMajor(){
+        major = scanner.nextLine();
+    }
+
+    void enterCohort(){
+        cohort = scanner.nextInt();
+    }
+
+
+    // Getter
     public String getName() {
         return name;
     }
@@ -29,7 +47,7 @@ public class Lion {
         return cohort;
     }
 
-    // Setter // Step1에서 사용 X
+    // Setter // Step2에서 사용 X
     public void setName(String name) {
         this.name = name;
     }
