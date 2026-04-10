@@ -69,6 +69,11 @@ public class Lion {
         }
     }
 
+    // 변경한 값의 출력 메서드 기능
+    public void changedPrint(){
+        System.out.println("이름: " + getName() + " | " + "🎓전공: " + getMajor() + " | " + "📌기수: " + getCohort());
+    }
+
     // Getter
     public String getName() {
         return name;
