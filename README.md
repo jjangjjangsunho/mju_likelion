@@ -10,6 +10,15 @@
 
 <br>
 
+## 🎯 학습 목표 (Learning Goals)
+단순한 기능 구현을 넘어, 백엔드 개발자로서 다음과 같은 역량을 갖추는 것을 목표로 합니다.
+* **객체지향 원칙(SOLID)**에 근거한 깨끗하고 유지보수하기 쉬운 자바 코드 작성
+* **Spring Boot** 프레임워크의 동작 원리 이해 및 효율적인 RESTful API 설계
+* **JPA/Hibernate**를 활용한 효율적인 데이터베이스 모델링 및 데이터 처리
+* **Git/GitHub**를 활용한 버전 관리 및 협업 프로세스 숙달
+  
+<br>
+
 ## 🛠️ Tech Stack
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 
