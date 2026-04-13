@@ -33,3 +33,19 @@
 | **3주차** | Java 기초 및 객체지향 설계 | 상속, 다형성, 추상화 | 🏃 진행 중 | [📂 3주차](./src/week3) |
 
 *(※ 표 안의 진행 상태는 `✅ 완료`, `🏃 진행 중`, `⏳ 대기` 등의 이모지를 활용하여 업데이트합니다.)*
+
+## 📁 Directory Structure
+
+```text
+📦 mju_likelion
+ ┣ 📂 .idea           # IDE 설정 파일
+ ┣ 📂 src             # 소스 코드 메인 폴더
+ ┃ ┣ 📂 week1         # 1주차: Java 기초 및 입력 검증 실습
+ ┃ ┣ 📂 week2         # 2주차: 상속(Inheritance) 실습
+ ┃ ┣ 📂 test          # 유닛 테스트 코드
+ ┃ ┗ 📜 Main.java     # 메인 실행 파일
+ ┣ 📂 test            # 루트 테스트 폴더
+ ┣ 📜 .gitignore      # Git 제외 대상 설정
+ ┣ 📜 Main.java       # 루트 메인 파일
+ ┣ 📜 README.md       # 리포지토리 소개 파일
+ ┗ 📜 likelion.iml    # 인텔리제이 프로젝트 모듈 파일
