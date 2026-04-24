@@ -1,7 +1,6 @@
 package week4;
 
 public class MethodsExample {
-
     // 함수(메서드)
     // 어떠한 값이 넘겨지면 아무 값도 넘겨지지 않았을 떄
     // 작업을 수행한 후
