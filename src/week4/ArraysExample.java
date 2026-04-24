@@ -22,6 +22,5 @@ public class ArraysExample {
         //System.out.println(price[1]);
 
         //System.out.println(price);
-
     }
 }
