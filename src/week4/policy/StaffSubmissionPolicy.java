@@ -1,6 +1,6 @@
-package week3.policy;
+package week4.policy;
 
-public class StaffPolicy implements Policy {
+public class StaffSubmissionPolicy implements SubmissionPolicy {
     @Override
     public boolean isSubmittable(){
         return false;

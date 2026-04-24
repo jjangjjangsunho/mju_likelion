@@ -1,6 +1,6 @@
-package week3.policy;
+package week4.policy;
 
-public class LionPolicy implements Policy {
+public class LionSubmissionPolicy implements SubmissionPolicy {
     @Override
     public boolean isSubmittable() {
             return true;

@@ -1,9 +1,9 @@
-package week3.role;
+package week4.role;
 
 import week3.policy.LionPolicy;
 import week3.policy.Policy;
 
-public class Lion extends Member {
+public class Lion extends Role {
     private int studentId;
 
     public Lion(String name, String major, int cohort, String part, int studentId) {
