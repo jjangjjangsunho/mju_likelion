@@ -32,8 +32,8 @@
 | **2주차** | Java 기초 및 객체지향 설계 | 클래스, 캡슐화 | ✅ 완료 | [📂 2주차](./src/week2) |
 | **3주차** | Java 기초 및 객체지향 설계 | 상속, 다형성, 추상화 | ✅ 완료 | [📂 3주차](./src/week3) |
 | **4주차** | Java Collection & 설계 확장 | List, Map, Generic | ✅ 완료 | [📂 4주차](./src/week4) |
-| **5주차** | 자바로 배우는 Ioc/DI | IoC, DI, Construnctor Injection | 🏃 진행 중 | [📂 5주차](./src/week5) |
-| **6주차** | Spring Boot 전환 | Spring Boot, Bean, Annotation | ⏳ 대기 | [📂 6주차](./src/week6) |
+| **5주차** | 자바로 배우는 Ioc/DI | IoC, DI, Construnctor Injection | ✅ 완료 | [📂 5주차](./src/week5) |
+| **6주차** | Spring Boot 전환 | Spring Boot, Bean, Annotation | 🏃 진행 중 | [📂 6주차](./src/week6) |
 | **7주차** | Rest API 설계(CRUD) | REST, HTTP, DTO | ⏳ 대기 | [📂 7주차](./src/week7) |
 | **8주차** | JPA 기초 & 영속성 컨텍스트 | JPA, Entity. Respository | ⏳ 대기 | [📂 8주차](./src/week8) |
 | **9주차** | 연관관계 & 트랜잭션 | @OneToMany, @@ManyToOne, Transactional | ⏳ 대기 | [📂 9주차](./src/week9) |
@@ -55,6 +55,7 @@
  ┃ ┣ 📂 week2         # 2주차: 상속(Inheritance) 실습
  ┃ ┣ 📂 week3         # 3주차: 상속, 다형성, 추상화 실습
  ┃ ┣ 📂 week4         # 4주차: List, Map, Generic 실습
+ ┃ ┣ 📂 week5         # 5주차: IoC/DI 실습
  ┃ ┣ 📂 test          # 유닛 테스트 코드
  ┃ ┗ 📜 Main.java     # 메인 실행 파일
  ┣ 📂 test            # 루트 테스트 폴더
