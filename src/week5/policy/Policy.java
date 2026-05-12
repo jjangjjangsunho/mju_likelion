@@ -1,4 +1,4 @@
-package week3.policy;
+package week5.policy;
 
 public interface Policy {
     boolean isSubmittable();
