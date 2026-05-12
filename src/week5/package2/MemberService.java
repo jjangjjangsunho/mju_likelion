@@ -2,33 +2,29 @@ package week5.package2;
 
 import week5.role.Member;
 import java.util.List;
-import java.util.Optional;
 
 public class MemberService {
-    // 인터페이스에 의존하며, 한 번 설정되면 변경되지 않도록 final 사용
+    // 구체적인 클래스가 아닌 인터페이스에 의존함
     private final MemberRepository memberRepository;
 
-    // 생성자를 통해 외부에서 구현체를 주입받음 (의존성 주입)
+    // 의존성 주입 (Dependency Injection)
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
-    public void join(Member member) {
-        Optional<Member> result = memberRepository.findByName(member.getName());
-        if (result.isPresent()) {
-            System.out.println("❌ 이미 존재하는 이름입니다.");
-            return;
+    public boolean register(Member member) {
+        if (memberRepository.checkDuplicateName(member.getName())) {
+            return false;
         }
         memberRepository.save(member);
-        System.out.println("✅ 등록 완료: " + member.getName());
+        return true;
     }
 
-    public List<Member> findMembers() {
+    public List<Member> getAllMembers() {
         return memberRepository.findAll();
     }
 
-    public Member findOne(String name) {
-        Optional<Member> result = memberRepository.findByName(name);
-        return result.orElse(null);
+    public Member searchByName(String name) {
+        return memberRepository.findByName(name);
     }
 }

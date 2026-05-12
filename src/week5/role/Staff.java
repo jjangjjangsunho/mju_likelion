@@ -1,9 +1,9 @@
-package week3.role;
+package week5.role;
 
 import week3.policy.Policy;
 import week3.policy.StaffPolicy;
 
-public class Staff extends Member{
+public class Staff extends Member {
     private String role;
 
     public Staff(String name, String major, int cohort, String part, String role){
